@@ -1,0 +1,20 @@
+package com.currency.demo;
+
+public class France {
+
+	private int amount;
+
+	public France(int amount) {
+		this.amount = amount;
+	}
+
+	France times(int multiplier) {
+		return new France(amount * multiplier);
+	}
+	
+	public boolean equals(Object object) {
+		France dollar = (France) object;
+		return amount == dollar.amount;
+	}
+
+}

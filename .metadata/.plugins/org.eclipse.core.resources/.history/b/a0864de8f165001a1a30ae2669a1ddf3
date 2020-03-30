@@ -1,0 +1,10 @@
+package com.currency.demo;
+
+public class Dollar {
+
+	public void times(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

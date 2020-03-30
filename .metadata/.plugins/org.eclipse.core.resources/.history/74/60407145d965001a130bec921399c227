@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.tdd;
+
+/**
+ * @author 8282
+ *
+ */
+public class Dollar {
+
+	/**
+	 * 
+	 */
+	public Dollar() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

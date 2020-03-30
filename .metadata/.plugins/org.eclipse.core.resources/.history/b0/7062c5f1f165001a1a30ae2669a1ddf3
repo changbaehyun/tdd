@@ -1,0 +1,14 @@
+package com.currency.demo;
+
+public class Dollar {
+
+	public Dollar(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void times(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

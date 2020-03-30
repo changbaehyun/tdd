@@ -1,0 +1,27 @@
+package com.currency.demo;
+
+abstract class Money {
+
+	protected int amount;
+	protected String currency;
+	
+	abstract Money times(int multilpier);
+
+	 String currency() {
+		 return currency;
+	 };
+	
+
+	static Dollar dollar(int amount) {
+		return new Dollar(amount,"CHF");
+	}
+	static France france(int amount) {
+		return new France(amount);
+	}
+	
+	public boolean equals(Object object) {
+		Money monney = (Money) object;
+		return amount == monney.amount
+				&& getClass().equals(monney.getClass());
+	}
+}
