@@ -36,8 +36,6 @@ class DollarTest {
 	public void testEqulity() {
 		assertTrue(Money.dollar(5).equals(Money.dollar(5)));
 		assertFalse(Money.dollar(5).equals(Money.dollar(6)));
-		assertTrue(Money.france(5).equals(Money.france(5)));
-		assertFalse(Money.france(5).equals(Money.france(6)));
 		assertFalse(Money.france(5).equals(Money.dollar(5)));
 	}
 
@@ -50,5 +48,17 @@ class DollarTest {
 	@Test
 	public void testDifferentClassEquality() {
 		assertTrue(new Money(10, "CHF").equals(new France(10, "CHF")));
+	}
+	
+	@Test
+	public void testSimpleAddition() {
+//		Money sum= Money.dollar(5).plus(Money.dollar(5));
+//		assertEquals(Money.dollar(10), sum);
+		Money five = Money.dollar(5);
+		Expression sum = five.plus(five);
+		Bank bank = new Bank();
+		Money reduced = bank.reduce(sum,"USD");
+		assertEquals(Money.dollar(10), reduced);
+		
 	}
 }

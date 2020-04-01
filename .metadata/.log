@@ -7759,3 +7759,1114 @@ java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 12:31:49.565
 !MESSAGE executing callback sts4.classpath.OKHuPOXZ SUCCESS [done]
+!SESSION 2020-03-30 15:21:18.200 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+
+!ENTRY org.eclipse.core.resources 4 567 2020-03-30 15:21:22.446
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-03-30 15:21:22.446
+!MESSAGE Could not read metadata for 'tdd'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(C:/Users/8282/Documents/git/tdd_practice/.metadata/.plugins/org.eclipse.core.resources/.projects/tdd/1.tree)[568]: java.io.FileNotFoundException: C:\Users\8282\Documents\git\tdd_practice\.metadata\.plugins\org.eclipse.core.resources\.projects\tdd\1.tree (지정된 경로를 찾을 수 없습니다)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2102)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1557)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:472)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+!SUBENTRY 2 org.eclipse.core.resources 4 568 2020-03-30 15:21:22.447
+!MESSAGE Could not write metadata for '/tdd'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\8282\Documents\git\tdd_practice\.metadata\.plugins\org.eclipse.core.resources\.projects\tdd\1.tree (지정된 경로를 찾을 수 없습니다)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2102)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1557)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:472)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:21:23.666
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-out-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:21:23.667
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-in-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:21:23.668
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugins-projects-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:21:23.669
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugin-cmd-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:21:23.670
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__start-user-plugins-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:21:23.670
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin.hello-world/__greeter-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:21:23.671
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ansi-repl/display-status
+
+!ENTRY org.eclipse.jface 2 0 2020-03-30 15:21:25.321
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-30 15:21:25.321
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78805df3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65a8c306,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:35.822
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:35.838
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@21c53493[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=1003)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:35.840
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:35.924
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-03-30 15:21:36.100
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\8282'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:42.409
+!MESSAGE Boot LS startup time from start to initialized: 6540ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:43.088
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QEkAdOGAisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.806
+!MESSAGE subscribing to classpath changes: sts4.classpath.QEkAdOGA isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.812
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.832
+!MESSAGE subsribers = {sts4.classpath.QEkAdOGA=Send Classpath Notifications(90)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.833
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.835
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.836
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.837
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.838
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.838
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.839
+!MESSAGE project tdd ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.839
+!MESSAGE project tdd SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.840
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.840
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QEkAdOGA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.884
+!MESSAGE classpath=260 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.896
+!MESSAGE buffering callback sts4.classpath.QEkAdOGA demo false 260
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:44.897
+!MESSAGE executing callback sts4.classpath.QEkAdOGA 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:45.349
+!MESSAGE executing callback sts4.classpath.QEkAdOGA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:53.204
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QEkAdOGA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:53.205
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QEkAdOGA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:53.206
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:21:53.208
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QEkAdOGA => OK
+
+!ENTRY org.eclipse.ui.ide 4 4 2020-03-30 15:21:55.374
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2020-03-30 15:21:55.375
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2020-03-30 15:21:55.375
+!MESSAGE Could not write metadata for '/tdd'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\8282\Documents\git\tdd_practice\.metadata\.plugins\org.eclipse.core.resources\.projects\tdd\.markers (지정된 경로를 찾을 수 없습니다)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1659)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1738)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1177)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2338)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:509)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui 2 2 2020-03-30 15:21:55.450
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-03-30 15:25:00.270 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+
+!ENTRY org.eclipse.core.resources 4 567 2020-03-30 15:25:06.758
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2020-03-30 15:25:06.758
+!MESSAGE Could not read metadata for 'tdd'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(C:/Users/8282/Documents/git/tdd_practice/.metadata/.plugins/org.eclipse.core.resources/.projects/tdd/1.tree)[568]: java.io.FileNotFoundException: C:\Users\8282\Documents\git\tdd_practice\.metadata\.plugins\org.eclipse.core.resources\.projects\tdd\1.tree (지정된 경로를 찾을 수 없습니다)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2102)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1557)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:472)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+!SUBENTRY 2 org.eclipse.core.resources 4 568 2020-03-30 15:25:06.759
+!MESSAGE Could not write metadata for '/tdd'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\8282\Documents\git\tdd_practice\.metadata\.plugins\org.eclipse.core.resources\.projects\tdd\1.tree (지정된 경로를 찾을 수 없습니다)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2102)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1557)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2454)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2211)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:489)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:842)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:834)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:791)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1015)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:603)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:493)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:571)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:330)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:472)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:425)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:417)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:155)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:25:07.758
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-out-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:25:07.761
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-in-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:25:07.762
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugins-projects-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:25:07.763
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugin-cmd-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:25:07.764
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__start-user-plugins-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:25:07.765
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin.hello-world/__greeter-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 15:25:07.767
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ansi-repl/display-status
+
+!ENTRY org.eclipse.jface 2 0 2020-03-30 15:25:09.528
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-30 15:25:09.528
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b95fce9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f26cd76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:19.526
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:19.545
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@24401b92[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=1003)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:19.548
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:19.700
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-03-30 15:25:20.188
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\8282'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.595
+!MESSAGE Boot LS startup time from start to initialized: 7020ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.754
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sjGlpHIsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.771
+!MESSAGE subscribing to classpath changes: sts4.classpath.sjGlpHIs isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.774
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.777
+!MESSAGE subsribers = {sts4.classpath.sjGlpHIs=Send Classpath Notifications(80)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.778
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.779
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.780
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.780
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.781
+!MESSAGE project tdd ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.781
+!MESSAGE project tdd SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.782
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.782
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sjGlpHIs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.786
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.787
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:26.898
+!MESSAGE classpath=260 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:27.022
+!MESSAGE buffering callback sts4.classpath.sjGlpHIs demo false 260
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:27.023
+!MESSAGE executing callback sts4.classpath.sjGlpHIs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:25:27.132
+!MESSAGE executing callback sts4.classpath.sjGlpHIs SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-03-30 15:25:28.517
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:29:40.960
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sjGlpHIs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:29:40.960
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.sjGlpHIs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:29:40.961
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 15:29:40.962
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sjGlpHIs => OK
+!SESSION 2020-03-30 20:24:22.038 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 20:25:01.117
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-out-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 20:25:01.120
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-in-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 20:25:01.121
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugins-projects-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 20:25:01.121
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugin-cmd-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 20:25:01.122
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__start-user-plugins-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 20:25:01.123
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin.hello-world/__greeter-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 20:25:01.124
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ansi-repl/display-status
+
+!ENTRY org.eclipse.jface 2 0 2020-03-30 20:25:03.221
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-30 20:25:03.221
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45ac973,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@28b7646,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:14.967
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:14.990
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@29a6ef6e[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=1003)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:14.999
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:15.163
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-03-30 20:25:18.213
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\8282'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.704
+!MESSAGE Boot LS startup time from start to initialized: 5671ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.761
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.smlwzMDoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.767
+!MESSAGE subscribing to classpath changes: sts4.classpath.smlwzMDo isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.773
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.776
+!MESSAGE subsribers = {sts4.classpath.smlwzMDo=Send Classpath Notifications(79)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.777
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.778
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.780
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.780
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.781
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.781
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.smlwzMDo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.783
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.784
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.922
+!MESSAGE classpath=260 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.933
+!MESSAGE buffering callback sts4.classpath.smlwzMDo demo false 260
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.934
+!MESSAGE executing callback sts4.classpath.smlwzMDo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 20:25:20.996
+!MESSAGE executing callback sts4.classpath.smlwzMDo SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-03-30 20:45:14.905
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 21:41:46.832
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.smlwzMDo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 21:41:46.833
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.smlwzMDo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 21:41:46.833
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 21:41:46.834
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.smlwzMDo => OK
+!SESSION 2020-03-30 22:10:50.513 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 22:10:56.305
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-out-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 22:10:56.307
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-in-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 22:10:56.308
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugins-projects-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 22:10:56.309
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugin-cmd-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 22:10:56.310
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__start-user-plugins-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 22:10:56.310
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin.hello-world/__greeter-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-30 22:10:56.311
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ansi-repl/display-status
+
+!ENTRY org.eclipse.jface 2 0 2020-03-30 22:10:57.876
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-30 22:10:57.877
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6dcc7696,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45ac973,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:07.663
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:07.673
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3e7cf92c[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=1003)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:07.682
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:07.884
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-03-30 22:11:08.209
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\8282'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.900
+!MESSAGE Boot LS startup time from start to initialized: 4175ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.949
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wcHqdEGWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.954
+!MESSAGE subscribing to classpath changes: sts4.classpath.wcHqdEGW isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.958
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.961
+!MESSAGE subsribers = {sts4.classpath.wcHqdEGW=Send Classpath Notifications(79)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.962
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.962
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.963
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.964
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.964
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.965
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wcHqdEGW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.968
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:11.973
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:12.063
+!MESSAGE classpath=260 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:12.073
+!MESSAGE buffering callback sts4.classpath.wcHqdEGW demo false 260
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:12.074
+!MESSAGE executing callback sts4.classpath.wcHqdEGW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:11:12.129
+!MESSAGE executing callback sts4.classpath.wcHqdEGW SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-03-30 22:11:38.244
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:26:50.443
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wcHqdEGW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:26:50.444
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.wcHqdEGW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:26:50.444
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-30 22:26:50.445
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wcHqdEGW => OK
+!SESSION 2020-03-31 07:17:46.310 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-31 07:17:52.388
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-out-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-31 07:17:52.393
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-in-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-31 07:17:52.394
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugins-projects-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-31 07:17:52.395
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugin-cmd-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-31 07:17:52.395
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__start-user-plugins-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-31 07:17:52.396
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin.hello-world/__greeter-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-03-31 07:17:52.397
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ansi-repl/display-status
+
+!ENTRY org.eclipse.jface 2 0 2020-03-31 07:17:54.306
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-31 07:17:54.307
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@811d8d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f57a7a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:04.820
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:04.821
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@422eeb[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=1003)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:04.826
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:04.876
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-03-31 07:18:05.667
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\8282'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.671
+!MESSAGE Boot LS startup time from start to initialized: 5831ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.719
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZfinSTQVisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.724
+!MESSAGE subscribing to classpath changes: sts4.classpath.ZfinSTQV isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.727
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.732
+!MESSAGE subsribers = {sts4.classpath.ZfinSTQV=Send Classpath Notifications(79)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.733
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.733
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.735
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.735
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.736
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.737
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.737
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.738
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZfinSTQV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.864
+!MESSAGE classpath=260 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.872
+!MESSAGE buffering callback sts4.classpath.ZfinSTQV demo false 260
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.872
+!MESSAGE executing callback sts4.classpath.ZfinSTQV 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:18:10.915
+!MESSAGE executing callback sts4.classpath.ZfinSTQV SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-03-31 07:18:15.183
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:26:10.221
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZfinSTQV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:26:10.222
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZfinSTQV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:26:10.222
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-31 07:26:10.223
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZfinSTQV => OK
+!SESSION 2020-04-01 22:58:09.296 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -vm C:\Program Files\Java\jdk1.8.0_161\bin\javaw.exe
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-04-01 22:58:18.202
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-out-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-04-01 22:58:18.205
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-zoom/__zoom-in-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-04-01 22:58:18.206
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugins-projects-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-04-01 22:58:18.206
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__create-user-plugin-cmd-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-04-01 22:58:18.207
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin-manager/__start-user-plugins-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-04-01 22:58:18.208
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ccw-plugin.hello-world/__greeter-handler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-04-01 22:58:18.209
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://ccw.core/clojure/ccw.e4.dsl/handler-factory/ansi-repl/display-status
+
+!ENTRY org.eclipse.jface 2 0 2020-04-01 22:58:21.450
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-01 22:58:21.450
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b9370cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a56f608,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:37.453
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:37.455
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@e733cd4[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=1003)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:37.463
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:37.582
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-01 22:58:40.222
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\8282'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.733
+!MESSAGE Boot LS startup time from start to initialized: 9257ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.820
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sCIRbYhKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.827
+!MESSAGE subscribing to classpath changes: sts4.classpath.sCIRbYhK isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.830
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.834
+!MESSAGE subsribers = {sts4.classpath.sCIRbYhK=Send Classpath Notifications(83)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.835
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.835
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.836
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.837
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.838
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.838
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sCIRbYhK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.852
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:46.854
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:47.030
+!MESSAGE classpath=260 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:47.041
+!MESSAGE buffering callback sts4.classpath.sCIRbYhK demo false 260
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:47.042
+!MESSAGE executing callback sts4.classpath.sCIRbYhK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 22:58:47.142
+!MESSAGE executing callback sts4.classpath.sCIRbYhK SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-04-01 23:00:26.103
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.ui 4 0 2020-04-01 23:16:46.063
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroupCore cannot be cast to org.eclipse.jdt.internal.corext.fix.LinkedProposalPositionGroup
+	at org.eclipse.jdt.internal.corext.fix.LinkedProposalModel$LinkedProposalPositionGroupIterator.next(LinkedProposalModel.java:47)
+	at org.eclipse.jdt.internal.corext.fix.LinkedProposalModel$LinkedProposalPositionGroupIterator.next(LinkedProposalModel.java:1)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:74)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.LinkedCorrectionProposal.performChange(LinkedCorrectionProposal.java:161)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:167)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.FixCorrectionProposal.apply(FixCorrectionProposal.java:182)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:564)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$2(AbstractAnnotationHover.java:546)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$5.widgetSelected(AbstractAnnotationHover.java:540)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1098)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:696)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5787)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1988)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4817)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4820)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:160)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:1946)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5166)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4798)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4820)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3583)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.ui 2 2 2020-04-01 23:17:12.883
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 23:28:38.032
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sCIRbYhK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 23:28:38.033
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.sCIRbYhK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 23:28:38.034
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-01 23:28:38.036
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.sCIRbYhK => OK

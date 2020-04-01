@@ -1,6 +1,0 @@
-package com.currency.demo;
-
-public class Money {
-
-	protected int amount;
-}

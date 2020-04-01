@@ -1,6 +1,7 @@
 package com.currency.demo;
 
- class Money {
+
+class Money implements Expression{
 
 	protected int amount;
 	protected String currency;
@@ -14,11 +15,11 @@ package com.currency.demo;
 		 return currency;
 	 };
 
-	static Dollar dollar(int amount) {
-		return new Dollar(amount,"USD");
+	static Money dollar(int amount) {
+		return new Money(amount,"USD");
 	}
-	static France france(int amount) {
-		return new France(amount,"CHF");
+	static Money france(int amount) {
+		return new Money(amount,"CHF");
 	}
 	
 	Money times(int multiplier) {
@@ -28,6 +29,11 @@ package com.currency.demo;
 		Money monney = (Money) object;
 		return amount == monney.amount
 				&& currency().equals(monney.currency());
+	}
+	
+	Money plus(Money addend) {
+		return new Money(amount + addend.amount, currency);
+		
 	}
 
 	@Override
