@@ -7,7 +7,7 @@
 <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
 <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Expression"/>
 <fullyQualifiedTypeName name="javax.persistence.criteria.Expression"/>
-<fullyQualifiedTypeName name="com.currency.demo.Money"/>
 <fullyQualifiedTypeName name="org.springframework.expression.Expression"/>
 <fullyQualifiedTypeName name="com.currency.demo.Expression"/>
+<fullyQualifiedTypeName name="com.currency.demo.Money"/>
 </qualifiedTypeNameHistroy>
