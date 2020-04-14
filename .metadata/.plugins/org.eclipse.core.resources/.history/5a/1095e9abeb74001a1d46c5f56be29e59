@@ -1,7 +1,0 @@
-package com.currency.demo;
-
-public class Sum {
-	Money augend;
-	Money addend;
-
-}
